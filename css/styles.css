@@ -6,14 +6,23 @@
   --fon-color: #2F303A;
   --stydio-color: #000;
   --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --button-background-color:#F5F4FA;
 }
 body {
   background-color: var(--brand-text-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
-*{
+.list{
+margin: 0;
+padding: 0;
   list-style: none;
+}
+.container{
+  width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 /* header section */
 .studio{
@@ -68,6 +77,9 @@ background: var(--fon-color);
 }
 /* button */
 .button{  
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
     background-color:  var(--focus-text-color);
     color: var(--brand-text-color);
     font-family: inherit;
@@ -75,6 +87,7 @@ background: var(--fon-color);
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
+    text-align: center;
 }
 
 .section {
@@ -145,12 +158,18 @@ background: var(--fon-color);
   width: 370px;
 }
 .box{
+  display: inline block;
+  border-radius: 4px;
+  padding: 6px 22px;
   font-family: inherit;
+  background: var(--button-background-color);
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
+  text-align: center;
+  border: 1px solid transparent;
 }
 .box:hover,
 .box:focus {
