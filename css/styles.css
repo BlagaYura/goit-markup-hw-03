@@ -50,7 +50,6 @@ a {
   font-size: 26px;
   line-height: 1.2;
   color: var(--focus-text-color);
-  margin-left: 215px;
 }
 .site-nav{
   display: flex;
@@ -195,8 +194,8 @@ margin-left: 50px;
   color: var(--primary-text-color);
   text-transform:inherit ;
   }
-.work {
 
+.work {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -205,6 +204,7 @@ margin-left: 50px;
   align-items: center;
   text-align: center;
 }
+
 .work-section {
   font-weight: 500;
   font-size: 16px;
@@ -214,8 +214,16 @@ margin-left: 50px;
 
 /* Footer */
 .footer-section{
+  max-width: 1600px;
+  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--fon-color);
   }
+  .footer-section-container{
+    padding-top: 60px;
+  }
+
  .studio-text{
   color: var(--brand-text-color);
   font-family: Raleway;
@@ -223,6 +231,18 @@ margin-left: 50px;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+ }
+ 
+ .footer-section .logo{
+   margin-left: 215px;
+   padding-bottom: 20px;
+   
+ }
+
+ .footer-section .item {
+   margin-left: 215px;
+   padding-bottom: 9px;
+
  }
  .footer-section .link{
   color: var(--contacts-text-color);
