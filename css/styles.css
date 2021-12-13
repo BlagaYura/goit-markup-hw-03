@@ -43,6 +43,11 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.main-nav .logo{
+  margin-left: 215px;
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .logo { 
   font-family: Raleway;
@@ -226,6 +231,8 @@ margin-left: 50px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
   background: var(--fon-color);
   }
   .footer-section-container{
@@ -338,14 +345,7 @@ margin-left: 50px;
   margin-right: 0;
 }
 
-
-
-
-
-
-
 .portfolio-title{
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
