@@ -256,10 +256,16 @@ img{
 
 /* Footer */
 .footer-sections{
+  padding-left: 0;
 padding-top: 60px;
 padding-bottom: 60px;
-  background: var(--fon-color);
+background: var(--fon-color);
   }
+ 
+  .footer-section-text{
+    padding-left: 0;
+  }
+
  .studio-text{
   color: var(--brand-text-color);
   font-family: Raleway;
@@ -269,7 +275,7 @@ padding-bottom: 60px;
   letter-spacing: 0.03em;
  }
 
- .footer-section .link{
+ .footer-section-text .link{
   color: var(--contacts-text-color);
   font-style: normal;
   font-size: 14px;
@@ -277,12 +283,12 @@ padding-bottom: 60px;
   letter-spacing: 0.03em;
  }
 
- .footer-section .link:hover,
- .footer-section .link:focus{
+ .footer-section-text .link:hover,
+ .footer-section-text .link:focus{
    color: var(--focus-text-color);
  }
- .footer-section .map:hover,
- .footer-section .map:focus{
+ .footer-section-text .map:hover,
+ .footer-section-text .map:focus{
   color: var(--focus-text-color);
  }
  .map{
@@ -295,8 +301,6 @@ padding-bottom: 60px;
 
 
 /* Portfolio */
-
-
 
 .portfolio-button{
   display: flex;
